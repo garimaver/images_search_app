@@ -22,7 +22,7 @@ form{
     margin-bottom: 60px;
 }
 
-#Search-input{
+#search-input{
     width: 60%;
     max-width: 400px;
     padding: 10px 20px;
@@ -33,9 +33,9 @@ form{
     color: black;
 }
 
-#Search-button{
+#search-button{
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: rgb(2, 41, 41);
     color: azure;
     border: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@ form{
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     margin-left: 10px;
 }
-.Search-result{
+.search-results{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,26 +52,26 @@ form{
     margin: 0 auto;
 }
 
-.Search-results{
+.search-result{
     margin-bottom: 60px;
     width: 30%;
     height: 100%;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
-.Search-result img{
+.search-result img{
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
     transition: opacity 0.2s ease-in-out;
 }
 
-.Search-result:hover img{
+.search-result:hover img{
     opacity: 0.8;
 }
 
-.Search-result a {
+.search-result a {
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -80,8 +80,8 @@ form{
     text-transform: capitalize;
 }
 
-#Show-more-button{
-    background-color: aqua;
+#show-more-button{
+    background-color: rgb(2, 41, 41);
     font-size: 18px;
     border: none;
     color: azure;
@@ -96,10 +96,10 @@ form{
 
 @media screen and (max-width:768px) {
 
-    .Search-results{
+    .search-results{
        padding: 20px;
     }
-    .Search-result{
+    .search-result{
         width: 45%; 
     }
 }
