@@ -97,9 +97,9 @@ form{
 @media screen and (max-width:768px) {
 
     .Search-results{
-      /* padding: 20px;
+       padding: 20px;
     }
-    .Search-result{*/
+    .Search-result{
         width: 45%; 
     }
 }
